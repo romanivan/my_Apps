@@ -1,0 +1,13 @@
+{
+    "mfTicketId": "ID of the ticket in Microfocus",
+    "mfProcessId": "ID of the plate in the MicroFocus",
+    "originType": "mf",
+    "mfTicketAttributes": [
+        {
+            "name": "Latin attribute name",
+            "displayName": "Cyrillic name of the attribute",
+            "dataType": "type of the value. Probably string or date",
+            "value": "stringified value"
+        }
+    ]
+}
