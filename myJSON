@@ -25,3 +25,13 @@
 		"commentRequired": true
 	}
 ]
+{
+	"attachmentsNodeId": 12345,
+	"permissions": {
+		"modify": true, //upload and delete actions allowed
+		"addVersion": true,
+		"open": true,
+		"download": true,
+		"selection": true
+	}
+}
