@@ -11,3 +11,17 @@
         }
     ]
 }
+
+
+[
+	{
+		"buttonDisplayName": "Cyrilic name of the button",
+		"dispositionAction": "approve",
+		"commentRequired": false
+	},
+	{
+		"buttonDisplayName": "Cyrilic name of the button 2",
+		"dispositionAction": "reject",
+		"commentRequired": true
+	}
+]
