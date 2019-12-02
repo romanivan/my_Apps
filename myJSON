@@ -29,12 +29,27 @@
 	}
 ]
 {
-	"attachmentsNodeId": 12345,
-	"permissions": {
-		"modify": true, //upload and delete actions allowed
-		"addVersion": true,
-		"open": true,
-		"download": true,
-		"selection": true
-	}
+  attachmentsId: 123,
+  subFolders:[
+    {
+      folderId: 123, // will be populated dynamically using webReport
+      folderName: '100',
+      displayName: 'Cyrillic name shown on UI',
+      visible: true|false,
+      addFile: true| false,
+      addVersion: true| false,
+      download: true:false,
+      delete: true| false
+    },
+    {
+      folderId: 12345,// will be populated dynamically using webReport
+      folderName: '200',
+      displayName: 'Cyrillic name shown on UI',
+      visible: true|false,
+      addFile: true| false,
+      addVersion: true| false,
+      download: true:false,
+      delete: true| false
+    }
+  ]
 }
