@@ -53,3 +53,51 @@
     }
   ]
 }
+
+
+[
+ {
+  "name": "розпорядчий документ про надання відпустки",
+  "displayName": "Attribute display name shown on the UI - 1",
+  "dataType": "string",
+  "value": "#987654321",
+  "attributeType": "multiline",
+  "sapSelectUrl": "url to SAP rest api",
+  "selectDataWebreportNickName": "NickNameOfDataProvider",
+  "required": true,
+  "hidden": true
+ },
+ {
+  "name": "Відповідальний Фронт-офіс",
+  "displayName": "Attribute display name shown on the UI - 2",
+  "dataType": "string",
+  "value": "ECM консультант",
+  "attributeType": "select",
+  "sapSelectUrl": "url to SAP rest api",
+  "selectDataWebreportNickName": "NickNameOfDataProvider",
+  "required": false,
+  "hidden": true
+ },
+ {
+  "name": "ПІБ відповідального фронт-офіс",
+  "displayName": "Attribute display name shown on the UI - 3",
+  "dataType": "string",
+  "value": "Олійник І.В.",
+  "attributeType": "sapSelect???",
+  "sapSelectUrl": "url to SAP rest api",
+  "selectDataWebreportNickName": "NickNameOfDataProvider",
+  "required": true,
+  "hidden": true
+ },
+ {
+  "name": "Коментар фронт-офісу",
+  "displayName": "Attribute display name shown on the UI - 4",
+  "dataType": "string",
+  "value": "без коментарів",
+  "attributeType": "select",
+  "sapSelectUrl": "url to SAP rest api",
+  "selectDataWebreportNickName": "NickNameOfDataProvider",
+  "required": true,
+  "hidden": true
+ }
+]
