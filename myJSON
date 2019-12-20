@@ -1,4 +1,17 @@
 {
+    "name": "sapBusinessUnits",
+    "dataType":"string",
+    "affectedAttributes": ["sapOrganizationUnitL1","sapOrganizationUnitL2","sapEmployees"],
+    "attributeType": "sapBusinessUnits",
+    "externalBaseUrl": "https://mih-sotd.metinvest.ua:3001", 
+    "wrNickName": null , 
+    "displayName":"Бизнес единица",
+    "required":true,
+    "hidden":false,
+    "readonly":false
+  }
+
+{
     "name": "hrProcess",
     "dataType":"string",
     "attributeType": "hrProcess",
