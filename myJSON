@@ -1,4 +1,18 @@
 {
+    "name": "sapOrganizationUnitL2",
+    "affectedAttributes": ["sapEmployees"],
+    "dataType":"string",
+    "attributeType": "sapOrganizationUnitL2",
+    "externalBaseUrl": "https://mih-sotd.metinvest.ua:3001", 
+    "wrNickName": null , 
+    "displayName":"Уровень 2",
+    "required":false,
+    "hidden":false,
+    "readonly":false
+}
+
+
+{
     "name": "sapOrganizationUnitL1",
     "affectedAttributes": ["sapOrganizationUnitL2","sapEmployees"],
     "dataType":"string",
